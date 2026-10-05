@@ -1,0 +1,5 @@
+# ufbt build output
+/dist/
+
+# ufbt-generated IDE files
+/.vscode/

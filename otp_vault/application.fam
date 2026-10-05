@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Eric M. Kok
+App(
+    appid="otp_vault",
+    name="OTPvault",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="otp_vault_app",
+    # Explicit source list: the language headers are #included through
+    # lang_manifest.h, so only these .c files are compiled.
+    sources=["otp_vault.c", "sha.c", "otp.c"],
+    stack_size=6 * 1024,
+    fap_category="USB",
+    fap_icon="icon.png",
+    fap_version="1.03",
+    fap_author="Eric M. Kok",
+    fap_description="Password-protected TOTP vault, bound to this Flipper. Types codes over USB. MIT licensed.",
+)

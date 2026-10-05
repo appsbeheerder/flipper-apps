@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Eric M. Kok
+# Solar math ported from jpb10/SolarCalculator (MIT, Copyright (c) 2021 jpb10)
+# See NOTICE for the full third-party attribution.
+App(
+    appid="solar_calculator",
+    name="Solar Calculator",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="solar_calculator_app",
+    # Explicit source list: the fbt default glob is "*.c*", which also matches
+    # helper .cmd scripts in this folder and breaks the link. Language headers
+    # are #included via lang_manifest.h, so only this .c needs compiling.
+    sources=["solar_calculator.c", "qrcodegen.c"],
+    stack_size=3 * 1024,
+    fap_category="Tools",
+    fap_version="3.4.4",
+    fap_icon="icons/icon.png",
+    fap_author="Eric M. Kok",
+    fap_description="Sunrise, sunset, twilight and sun position calculator (Meeus algorithms). MIT licensed.",
+)

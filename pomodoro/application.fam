@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Eric M. Kok
+App(
+    appid="pomodoro",
+    name="Pomodoro",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="pomodoro_app",
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_icon="icon.png",
+    fap_version="1.01",
+    fap_author="Eric M. Kok",
+    fap_description="Pomodoro focus timer with work/break cycles, statistics and help. MIT licensed.",
+)

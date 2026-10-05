@@ -1,0 +1,33 @@
+Solar Calculator for Flipper Zero
+Copyright (c) 2026 Eric M. Kok
+Licensed under the MIT License (see LICENSE).
+
+This app's solar-position math (sunrise/sunset/twilight/equation of time/
+sun position) is a C port of the astronomical algorithms from:
+
+    SolarCalculator Library for Arduino
+    https://github.com/jpb10/SolarCalculator
+    Copyright (c) 2021 jpb10
+    Licensed under the MIT License
+
+Most formulas are taken from Astronomical Algorithms by Jean Meeus
+(2nd ed., Willmann-Bell, 1998), as implemented by the above library.
+
+This app's moon-phase math (illuminated fraction, moon age, next new/full
+moon) is a C port of the algorithms from:
+
+    moonPhase-esp32
+    https://github.com/CelliesProjects/moonPhase-esp32
+    Copyright (c) 2018 Cellie (Marcel Timmer)
+    Licensed under the MIT License
+
+That library is itself adapted from http://www.voidware.com/phase.c.
+
+The on-screen QR code is generated with:
+
+    QR Code generator library (C)
+    https://github.com/nayuki/QR-Code-generator
+    Copyright (c) Project Nayuki
+    Licensed under the MIT License
+
+See LICENSES.md for the full text of all licenses above.
