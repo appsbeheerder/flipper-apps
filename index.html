@@ -1,0 +1,99 @@
+<title>Flipper Zero Apps</title>
+<meta name="description" content="Flipper Zero apps by Eric M. Kok">
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--text:#1d1d1b;--muted:#5d5b55;--line:#ddd8cc;--accent:#c75b12}
+@media (prefers-color-scheme:dark){:root{--bg:#161512;--card:#201e1a;--text:#f0ede6;--muted:#a9a498;--line:#37342d;--accent:#ff9a4d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 56px}
+header{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+h1{margin:0 0 4px;font-size:1.9rem}
+h2{margin:36px 0 12px;font-size:1.2rem}
+.sub{margin:0;color:var(--muted)}
+button{font:inherit;color:var(--text);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer}
+button[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}
+.card{display:flex;gap:16px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:12px}
+.icon{flex:none;width:56px;height:56px;padding:8px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.icon svg{width:100%;height:100%;display:block}
+.card h3{margin:0 0 4px;font-size:1.05rem}
+.card p{margin:0 0 8px}
+.ver{color:var(--muted);font-weight:400;font-size:.85rem;margin-left:6px}
+a{color:var(--accent)}
+ol{padding-left:1.2em}
+code{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:.9em}
+footer{margin-top:40px;color:var(--muted);font-size:.9rem}
+</style>
+<main>
+  <header>
+    <div>
+      <h1>Flipper Zero Apps</h1>
+      <p class="sub" data-en="Small apps I built for the Flipper Zero." data-nl="Kleine apps die ik voor de Flipper Zero heb gemaakt.">Small apps I built for the Flipper Zero.</p>
+    </div>
+    <div role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="nl" aria-pressed="false">NL</button>
+    </div>
+  </header>
+
+  <h2 data-en="Apps" data-nl="Apps">Apps</h2>
+    <article class="card">
+      <div class="icon"><svg viewBox="0 0 10 10" aria-hidden="true" shape-rendering="crispEdges" fill="currentColor"><rect x="1" y="0" width="1" height="1"/><rect x="2" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="5" y="0" width="1" height="1"/><rect x="6" y="0" width="1" height="1"/><rect x="7" y="0" width="1" height="1"/><rect x="8" y="0" width="1" height="1"/><rect x="1" y="1" width="1" height="1"/><rect x="8" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="5" y="2" width="1" height="1"/><rect x="8" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="8" y="3" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="5" y="4" width="1" height="1"/><rect x="8" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="5" y="5" width="1" height="1"/><rect x="8" y="5" width="1" height="1"/><rect x="1" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/><rect x="5" y="6" width="1" height="1"/><rect x="8" y="6" width="1" height="1"/><rect x="1" y="7" width="1" height="1"/><rect x="8" y="7" width="1" height="1"/><rect x="1" y="8" width="1" height="1"/><rect x="8" y="8" width="1" height="1"/><rect x="1" y="9" width="1" height="1"/><rect x="2" y="9" width="1" height="1"/><rect x="3" y="9" width="1" height="1"/><rect x="4" y="9" width="1" height="1"/><rect x="5" y="9" width="1" height="1"/><rect x="6" y="9" width="1" height="1"/><rect x="7" y="9" width="1" height="1"/><rect x="8" y="9" width="1" height="1"/></svg></div>
+      <div class="body">
+        <h3>Device Info <span class="ver">v1.11</span></h3>
+        <p data-en="Shows device, firmware, battery, storage and ID information on several screens." data-nl="Toont apparaat-, firmware-, batterij-, opslag- en ID-gegevens op meerdere schermen.">Shows device, firmware, battery, storage and ID information on several screens.</p>
+        <a href="https://github.com/appsbeheerder/flipper-apps/releases/download/device_info-v1.11/device_info.fap">Download .fap (v1.11)</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="icon"><svg viewBox="0 0 10 10" aria-hidden="true" shape-rendering="crispEdges" fill="currentColor"><rect x="2" y="0" width="1" height="1"/><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="5" y="0" width="1" height="1"/><rect x="6" y="0" width="1" height="1"/><rect x="7" y="0" width="1" height="1"/><rect x="1" y="1" width="1" height="1"/><rect x="8" y="1" width="1" height="1"/><rect x="0" y="2" width="1" height="1"/><rect x="9" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="9" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="5" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="9" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="5" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="7" y="5" width="1" height="1"/><rect x="9" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/><rect x="5" y="6" width="1" height="1"/><rect x="6" y="6" width="1" height="1"/><rect x="7" y="6" width="1" height="1"/><rect x="9" y="6" width="1" height="1"/><rect x="0" y="7" width="1" height="1"/><rect x="5" y="7" width="1" height="1"/><rect x="6" y="7" width="1" height="1"/><rect x="9" y="7" width="1" height="1"/><rect x="1" y="8" width="1" height="1"/><rect x="8" y="8" width="1" height="1"/><rect x="2" y="9" width="1" height="1"/><rect x="3" y="9" width="1" height="1"/><rect x="4" y="9" width="1" height="1"/><rect x="5" y="9" width="1" height="1"/><rect x="6" y="9" width="1" height="1"/><rect x="7" y="9" width="1" height="1"/></svg></div>
+      <div class="body">
+        <h3>Solar Calculator <span class="ver">v3.4.2</span></h3>
+        <p data-en="Sunrise, sunset, twilight, sun position and moon phase for any location, in 12 languages. Includes a QR code and NFC tag that point to the sources." data-nl="Zonsopkomst, zonsondergang, schemering, zonpositie en maanfase voor elke locatie, in 12 talen. Met een QR-code en NFC-tag naar de bronnen.">Sunrise, sunset, twilight, sun position and moon phase for any location, in 12 languages. Includes a QR code and NFC tag that point to the sources.</p>
+        <a href="https://github.com/appsbeheerder/flipper-apps/releases/download/solar_calculator-v3.4.2/solar_calculator.fap">Download .fap (v3.4.2)</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="icon"><svg viewBox="0 0 10 10" aria-hidden="true" shape-rendering="crispEdges" fill="currentColor"><rect x="4" y="0" width="1" height="1"/><rect x="5" y="0" width="1" height="1"/><rect x="3" y="1" width="1" height="1"/><rect x="5" y="1" width="1" height="1"/><rect x="1" y="2" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="3" y="2" width="1" height="1"/><rect x="4" y="2" width="1" height="1"/><rect x="5" y="2" width="1" height="1"/><rect x="6" y="2" width="1" height="1"/><rect x="7" y="2" width="1" height="1"/><rect x="8" y="2" width="1" height="1"/><rect x="0" y="3" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="5" y="3" width="1" height="1"/><rect x="6" y="3" width="1" height="1"/><rect x="7" y="3" width="1" height="1"/><rect x="8" y="3" width="1" height="1"/><rect x="9" y="3" width="1" height="1"/><rect x="0" y="4" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="5" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="7" y="4" width="1" height="1"/><rect x="8" y="4" width="1" height="1"/><rect x="9" y="4" width="1" height="1"/><rect x="0" y="5" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="4" y="5" width="1" height="1"/><rect x="5" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="7" y="5" width="1" height="1"/><rect x="8" y="5" width="1" height="1"/><rect x="9" y="5" width="1" height="1"/><rect x="0" y="6" width="1" height="1"/><rect x="1" y="6" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="3" y="6" width="1" height="1"/><rect x="4" y="6" width="1" height="1"/><rect x="5" y="6" width="1" height="1"/><rect x="6" y="6" width="1" height="1"/><rect x="7" y="6" width="1" height="1"/><rect x="8" y="6" width="1" height="1"/><rect x="9" y="6" width="1" height="1"/><rect x="0" y="7" width="1" height="1"/><rect x="1" y="7" width="1" height="1"/><rect x="2" y="7" width="1" height="1"/><rect x="3" y="7" width="1" height="1"/><rect x="4" y="7" width="1" height="1"/><rect x="5" y="7" width="1" height="1"/><rect x="6" y="7" width="1" height="1"/><rect x="7" y="7" width="1" height="1"/><rect x="8" y="7" width="1" height="1"/><rect x="9" y="7" width="1" height="1"/><rect x="1" y="8" width="1" height="1"/><rect x="2" y="8" width="1" height="1"/><rect x="3" y="8" width="1" height="1"/><rect x="4" y="8" width="1" height="1"/><rect x="5" y="8" width="1" height="1"/><rect x="6" y="8" width="1" height="1"/><rect x="7" y="8" width="1" height="1"/><rect x="8" y="8" width="1" height="1"/><rect x="2" y="9" width="1" height="1"/><rect x="3" y="9" width="1" height="1"/><rect x="4" y="9" width="1" height="1"/><rect x="5" y="9" width="1" height="1"/><rect x="6" y="9" width="1" height="1"/><rect x="7" y="9" width="1" height="1"/></svg></div>
+      <div class="body">
+        <h3>Pomodoro <span class="ver">v1.01</span></h3>
+        <p data-en="Focus timer with work and break blocks (25/5/15 minutes by default), a long break after four rounds, daily statistics and a built-in help screen." data-nl="Focustimer met werk- en pauzeblokken (standaard 25/5/15 minuten), een lange pauze na vier rondes, dagstatistieken en een ingebouwd helpscherm.">Focus timer with work and break blocks (25/5/15 minutes by default), a long break after four rounds, daily statistics and a built-in help screen.</p>
+        <a href="https://github.com/appsbeheerder/flipper-apps/releases/download/pomodoro-v1.01/pomodoro.fap">Download .fap (v1.01)</a>
+      </div>
+    </article>
+    <article class="card">
+      <div class="icon"><svg viewBox="0 0 10 10" aria-hidden="true" shape-rendering="crispEdges" fill="currentColor"><rect x="3" y="0" width="1" height="1"/><rect x="4" y="0" width="1" height="1"/><rect x="5" y="0" width="1" height="1"/><rect x="6" y="0" width="1" height="1"/><rect x="2" y="1" width="1" height="1"/><rect x="7" y="1" width="1" height="1"/><rect x="2" y="2" width="1" height="1"/><rect x="7" y="2" width="1" height="1"/><rect x="1" y="3" width="1" height="1"/><rect x="2" y="3" width="1" height="1"/><rect x="3" y="3" width="1" height="1"/><rect x="4" y="3" width="1" height="1"/><rect x="5" y="3" width="1" height="1"/><rect x="6" y="3" width="1" height="1"/><rect x="7" y="3" width="1" height="1"/><rect x="8" y="3" width="1" height="1"/><rect x="1" y="4" width="1" height="1"/><rect x="2" y="4" width="1" height="1"/><rect x="3" y="4" width="1" height="1"/><rect x="4" y="4" width="1" height="1"/><rect x="5" y="4" width="1" height="1"/><rect x="6" y="4" width="1" height="1"/><rect x="7" y="4" width="1" height="1"/><rect x="8" y="4" width="1" height="1"/><rect x="1" y="5" width="1" height="1"/><rect x="2" y="5" width="1" height="1"/><rect x="3" y="5" width="1" height="1"/><rect x="6" y="5" width="1" height="1"/><rect x="7" y="5" width="1" height="1"/><rect x="8" y="5" width="1" height="1"/><rect x="1" y="6" width="1" height="1"/><rect x="2" y="6" width="1" height="1"/><rect x="3" y="6" width="1" height="1"/><rect x="6" y="6" width="1" height="1"/><rect x="7" y="6" width="1" height="1"/><rect x="8" y="6" width="1" height="1"/><rect x="1" y="7" width="1" height="1"/><rect x="2" y="7" width="1" height="1"/><rect x="3" y="7" width="1" height="1"/><rect x="4" y="7" width="1" height="1"/><rect x="5" y="7" width="1" height="1"/><rect x="6" y="7" width="1" height="1"/><rect x="7" y="7" width="1" height="1"/><rect x="8" y="7" width="1" height="1"/><rect x="1" y="8" width="1" height="1"/><rect x="2" y="8" width="1" height="1"/><rect x="3" y="8" width="1" height="1"/><rect x="4" y="8" width="1" height="1"/><rect x="5" y="8" width="1" height="1"/><rect x="6" y="8" width="1" height="1"/><rect x="7" y="8" width="1" height="1"/><rect x="8" y="8" width="1" height="1"/><rect x="1" y="9" width="1" height="1"/><rect x="2" y="9" width="1" height="1"/><rect x="3" y="9" width="1" height="1"/><rect x="4" y="9" width="1" height="1"/><rect x="5" y="9" width="1" height="1"/><rect x="6" y="9" width="1" height="1"/><rect x="7" y="9" width="1" height="1"/><rect x="8" y="9" width="1" height="1"/></svg></div>
+      <div class="body">
+        <h3>OTPvault <span class="ver">v1.02</span></h3>
+        <p data-en="Password-protected TOTP vault. Accounts are encrypted with AES-256-GCM, with a key derived from your password and bound to this Flipper. Types codes over USB as a keyboard. English and Dutch. Experimental: early versions, not independently reviewed." data-nl="TOTP-kluis met wachtwoord. Accounts zijn versleuteld met AES-256-GCM, met een sleutel afgeleid van je wachtwoord en gebonden aan deze Flipper. Typt codes via USB als toetsenbord. Engels en Nederlands. Experimenteel: vroege versies, niet onafhankelijk beoordeeld.">Password-protected TOTP vault. Accounts are encrypted with AES-256-GCM, with a key derived from your password and bound to this Flipper. Types codes over USB as a keyboard. English and Dutch. Experimental: early versions, not independently reviewed.</p>
+        <a href="https://github.com/appsbeheerder/flipper-apps/releases/download/otp_vault-v1.02/otp_vault.fap">Download .fap (v1.02)</a>
+      </div>
+    </article>
+
+  <h2 data-en="Install" data-nl="Installeren">Install</h2>
+  <ol>
+    <li data-en="Download the <code>.fap</code> file of the app you want." data-nl="Download het <code>.fap</code>-bestand van de app die je wilt.">Download the <code>.fap</code> file of the app you want.</li>
+    <li data-en="Copy it to the <code>apps</code> folder on the Flipper's SD card, for example with qFlipper (File manager) or the Flipper mobile app." data-nl="Kopieer het naar de map <code>apps</code> op de SD-kaart van de Flipper, bijvoorbeeld met qFlipper (bestandsbeheer) of de Flipper-app op je telefoon.">Copy it to the <code>apps</code> folder on the Flipper's SD card, for example with qFlipper (File manager) or the Flipper mobile app.</li>
+    <li data-en="On the Flipper, open Apps and start it." data-nl="Open op de Flipper Apps en start de app.">On the Flipper, open Apps and start it.</li>
+  </ol>
+  <p class="sub" data-en="The apps were built against the official firmware API 87.1. A different firmware may not run them." data-nl="De apps zijn gebouwd tegen de officiële firmware-API 87.1. Op een andere firmware werken ze mogelijk niet.">The apps were built against the official firmware API 87.1. A different firmware may not run them.</p>
+
+  <footer>
+    <span data-en="All apps are MIT licensed, provided as is, without warranty. Copyright &copy; 2026 Eric M. Kok. The source code is not public." data-nl="Alle apps hebben de MIT-licentie en worden geleverd zoals ze zijn, zonder garantie. Copyright &copy; 2026 Eric M. Kok. De broncode is niet openbaar.">All apps are MIT licensed, provided as is, without warranty. Copyright &copy; 2026 Eric M. Kok. The source code is not public.</span>
+  </footer>
+</main>
+<script>
+(function(){
+  var buttons=document.querySelectorAll("button[data-lang]");
+  function setLang(l){
+    document.documentElement.lang=l;
+    document.querySelectorAll("[data-"+l+"]").forEach(function(e){e.innerHTML=e.getAttribute("data-"+l)});
+    buttons.forEach(function(b){b.setAttribute("aria-pressed",b.dataset.lang===l)});
+    try{localStorage.setItem("lang",l)}catch(e){}
+  }
+  buttons.forEach(function(b){b.addEventListener("click",function(){setLang(b.dataset.lang)})});
+  var l="en";
+  try{l=localStorage.getItem("lang")||""}catch(e){}
+  if(l!=="en"&&l!=="nl")l=(navigator.language||"").slice(0,2)==="nl"?"nl":"en";
+  setLang(l);
+})();
+</script>
