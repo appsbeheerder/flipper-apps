@@ -11,6 +11,7 @@ static const LangStrings lang_en = {
     .title_settings = "Settings",
     .title_help = "Help",
     .title_about = "About",
+    .title_credits = "Credits",
     .title_unlock = "Unlock",
     .title_create = "New password",
     .title_confirm = "Repeat password",
@@ -68,4 +69,10 @@ static const LangStrings lang_en = {
     .about_selftest = "Self-test:",
     .selftest_ok = "OK",
     .selftest_fail = "FAIL",
+
+    .credit_1 = "No third-party code.",
+    .credit_2 = "Compared with the app",
+    .credit_3 = "Authenticator by",
+    .credit_4 = "A. Kopachov (GPL-3.0)",
+    .credit_5 = "See THIRD-PARTY.md",
 };

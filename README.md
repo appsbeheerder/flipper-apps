@@ -23,6 +23,10 @@ Needs Python and [uFBT](https://github.com/flipperdevices/flipperzero-ufbt)
 
 Close qFlipper before uploading: it keeps the USB serial port open.
 
+## Credits
+
+See [`THIRD-PARTY.md`](THIRD-PARTY.md) for third-party code, comparisons and copyright notices.
+
 ## License
 
 MIT, Copyright (c) 2026 Eric M. Kok. See `LICENSE` and the `LICENSE` file in each

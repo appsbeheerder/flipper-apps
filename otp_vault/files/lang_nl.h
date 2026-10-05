@@ -11,6 +11,7 @@ static const LangStrings lang_nl = {
     .title_settings = "Instellingen",
     .title_help = "Hulp",
     .title_about = "Over deze app",
+    .title_credits = "Bronnen",
     .title_unlock = "Ontgrendelen",
     .title_create = "Nieuw wachtwoord",
     .title_confirm = "Herhaal wachtwoord",
@@ -68,4 +69,10 @@ static const LangStrings lang_nl = {
     .about_selftest = "Zelftest:",
     .selftest_ok = "OK",
     .selftest_fail = "FOUT",
+
+    .credit_1 = "Geen code van derden.",
+    .credit_2 = "Vergeleken met de app",
+    .credit_3 = "Authenticator van",
+    .credit_4 = "A. Kopachov (GPL-3.0)",
+    .credit_5 = "Zie THIRD-PARTY.md",
 };
