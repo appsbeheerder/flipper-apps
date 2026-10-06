@@ -1,7 +1,7 @@
 <#
 Device Info - Flipper Zero app
 Copyright (c) 2026 Eric M. Kok
-SPDX-License-Identifier: MIT
+SPDX-License-Identifier: GPL-3.0-only
 See LICENSE in this app's folder for the full license text.
 
 Genereert lang_manifest.h door alle files/lang_*.h bestanden te scannen.
@@ -29,7 +29,7 @@ $varNames = $langFiles | ForEach-Object { [System.IO.Path]::GetFileNameWithoutEx
 $lines = @()
 $lines += "#pragma once"
 $lines += ""
-$lines += "// SPDX-License-Identifier: MIT"
+$lines += "// SPDX-License-Identifier: GPL-3.0-only"
 $lines += "// Copyright (c) 2026 Eric M. Kok"
 $lines += "// AUTO-GEGENEREERD door pre_build.ps1 - niet handmatig bewerken."
 $lines += "// Wordt bij elke build opnieuw opgebouwd uit files/lang_*.h."

@@ -2,7 +2,7 @@
  * OTPvault - SHA-1, SHA-256, HMAC and PBKDF2 (own implementation, verified by
  * the self-test in otp_vault.c against RFC test vectors).
  * Copyright (c) 2026 Eric M. Kok
- * SPDX-License-Identifier: MIT
+ * SPDX-License-Identifier: GPL-3.0-only
  */
 
 #include "sha.h"

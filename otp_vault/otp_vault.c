@@ -1,7 +1,7 @@
 /*
  * OTPvault - Flipper Zero app
  * Copyright (c) 2026 Eric M. Kok
- * SPDX-License-Identifier: MIT
+ * SPDX-License-Identifier: GPL-3.0-only
  * See LICENSE in this app's folder for the full license text.
  *
  * Password-protected TOTP vault. The accounts are stored in one file that is
@@ -27,10 +27,10 @@
 #include "sha.h"
 #include "otp.h"
 
-#define APP_VERSION "1.04"
+#define APP_VERSION "1.05"
 #define APP_START_YEAR 2026
 #define APP_AUTHOR "Eric M. Kok"
-#define APP_LICENSE "MIT"
+#define APP_LICENSE "GPLv3"
 
 #define DATA_DIR EXT_PATH("apps_data/otp_vault")
 #define VAULT_PATH DATA_DIR "/vault.bin"

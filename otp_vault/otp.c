@@ -1,7 +1,7 @@
 /*
  * OTPvault - Base32 and TOTP (RFC 4226 / RFC 6238)
  * Copyright (c) 2026 Eric M. Kok
- * SPDX-License-Identifier: MIT
+ * SPDX-License-Identifier: GPL-3.0-only
  */
 
 #include "otp.h"

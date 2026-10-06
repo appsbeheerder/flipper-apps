@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: GPL-3.0-only
 // Copyright (c) 2026 Eric M. Kok
 // AUTO-GEGENEREERD door pre_build.ps1 - niet handmatig bewerken.
 // Wordt bij elke build opnieuw opgebouwd uit files/lang_*.h.

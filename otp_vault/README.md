@@ -8,7 +8,7 @@ password. The app types the current code over USB as a keyboard.
 built-in self-test checks the crypto code against RFC test values on every
 start; if it fails, the app shows an error screen and refuses to run.
 
-Copyright (c) 2026 Eric M. Kok. MIT license, see `LICENSE`. Credits and
+Copyright (c) 2026 Eric M. Kok. GPL-3.0 license, see `LICENSE`. Credits and
 third-party licenses: `../THIRD-PARTY.md`.
 
 ## Features

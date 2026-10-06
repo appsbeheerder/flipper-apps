@@ -1,7 +1,7 @@
 /*
  * Solar Calculator - Flipper Zero app
  * Copyright (c) 2026 Eric M. Kok
- * SPDX-License-Identifier: MIT
+ * SPDX-License-Identifier: GPL-3.0-only
  * See LICENSE in this app's folder for the full license text.
  *
  * The solar-position math below is a C port of the algorithms in
@@ -41,10 +41,10 @@
 
 #include "qrcodegen.h"
 
-#define APP_VERSION "3.4.4"
+#define APP_VERSION "3.4.5"
 #define APP_START_YEAR 2026
 #define APP_AUTHOR "Eric M. Kok"
-#define APP_LICENSE "MIT"
+#define APP_LICENSE "GPLv3"
 
 #define SCREEN_W 128
 #define SCREEN_H 64

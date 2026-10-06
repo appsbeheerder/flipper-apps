@@ -1,7 +1,10 @@
 # Third-party credits and licenses
 
-All apps in this repository are MIT licensed, Copyright (c) 2026 Eric M. Kok.
-This file lists what the apps owe to others. Nothing here replaces the license
+All apps in this repository are licensed under the GNU General Public License
+version 3 (GPL-3.0-only), Copyright (c) 2026 Eric M. Kok. Releases up to and
+including device_info 1.12, solar_calculator 3.4.4, pomodoro 1.01 and
+otp_vault 1.04 were published under the MIT license and stay available under
+it for those who received them. This file lists what the apps owe to others. Nothing here replaces the license
 texts in the individual app folders.
 
 ## OTPvault (`otp_vault`)
@@ -21,7 +24,7 @@ Alexander Kopachov (akopachov) and contributors,
 <https://github.com/akopachov/flipper-zero_authenticator>, licensed under
 GPL-3.0. Its design (how the vault is encrypted) was read to find out where
 OTPvault can do better; the comparison is in `otp_vault/README.md`. No code
-from it is used, because GPL-3.0 code cannot be combined with this MIT code. It
+from it is used. It
 bundles wolfSSL (GPL / commercial) and a Base32 library by Google (Apache-2.0);
 neither is used here.
 
@@ -31,7 +34,8 @@ call the public firmware API (crypto enclave, GUI, storage, USB HID).
 
 ## Solar Calculator (`solar_calculator`)
 
-Includes MIT-licensed code from others. Their copyright notices are in
+Includes MIT-licensed code from others, which stays under its own MIT license
+within the GPLv3 whole. Their copyright notices are in
 `solar_calculator/NOTICE` and `solar_calculator/LICENSES.md`:
 
 - jpb10, SolarCalculator, Copyright (c) 2021 jpb10 (solar position math).

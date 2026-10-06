@@ -29,6 +29,9 @@ See [`THIRD-PARTY.md`](THIRD-PARTY.md) for third-party code, comparisons and cop
 
 ## License
 
-MIT, Copyright (c) 2026 Eric M. Kok. See `LICENSE` and the `LICENSE` file in each
-app folder. `solar_calculator` includes MIT-licensed code from others; see its
-`NOTICE` and `LICENSES.md`. Provided as is, without warranty.
+GNU GPL version 3, Copyright (c) 2026 Eric M. Kok. See `LICENSE` and the `LICENSE`
+file in each app folder. Releases up to device_info 1.12, solar_calculator 3.4.4,
+pomodoro 1.01 and otp_vault 1.04 were published under the MIT license and stay
+available under it. `solar_calculator` includes MIT-licensed code from others,
+which keeps its own license; see its `NOTICE` and `LICENSES.md`. Provided as is,
+without warranty.

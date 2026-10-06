@@ -1,7 +1,7 @@
 /*
  * Pomodoro - Flipper Zero app
  * Copyright (c) 2026 Eric M. Kok
- * SPDX-License-Identifier: MIT
+ * SPDX-License-Identifier: GPL-3.0-only
  * See LICENSE in this app's folder for the full license text.
  */
 
@@ -18,10 +18,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#define APP_VERSION "1.01"
+#define APP_VERSION "1.02"
 #define APP_START_YEAR 2026
 #define APP_AUTHOR "Eric M. Kok"
-#define APP_LICENSE "MIT"
+#define APP_LICENSE "GPLv3"
 
 #define DATA_DIR EXT_PATH("apps_data/pomodoro")
 #define DATA_FILE DATA_DIR "/pomodoro.cfg"

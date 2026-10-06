@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: GPL-3.0-only
 # Copyright (c) 2026 Eric M. Kok
 # Solar math ported from jpb10/SolarCalculator (MIT, Copyright (c) 2021 jpb10)
 # See NOTICE for the full third-party attribution.
@@ -13,8 +13,8 @@ App(
     sources=["solar_calculator.c", "qrcodegen.c"],
     stack_size=3 * 1024,
     fap_category="Tools",
-    fap_version="3.4.4",
+    fap_version="3.4.5",
     fap_icon="icons/icon.png",
     fap_author="Eric M. Kok",
-    fap_description="Sunrise, sunset, twilight and sun position calculator (Meeus algorithms). MIT licensed.",
+    fap_description="Sunrise, sunset, twilight and sun position calculator (Meeus algorithms). GPLv3 licensed.",
 )

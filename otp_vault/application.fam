@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: GPL-3.0-only
 # Copyright (c) 2026 Eric M. Kok
 App(
     appid="otp_vault",
@@ -11,7 +11,7 @@ App(
     stack_size=6 * 1024,
     fap_category="USB",
     fap_icon="icon.png",
-    fap_version="1.04",
+    fap_version="1.05",
     fap_author="Eric M. Kok",
-    fap_description="Password-protected TOTP vault, bound to this Flipper. Types codes over USB. MIT licensed.",
+    fap_description="Password-protected TOTP vault, bound to this Flipper. Types codes over USB. GPLv3 licensed.",
 )

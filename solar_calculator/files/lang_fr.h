@@ -1,6 +1,6 @@
 #pragma once
 
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: GPL-3.0-only
 // Copyright (c) 2026 Eric M. Kok
 // Francais
 static const LangStrings lang_fr = {

@@ -11,7 +11,7 @@ time.
 
 - **Version:** 3.2.2
 - **Author:** Eric M. Kok
-- **License:** MIT (see [`LICENSE`](LICENSE) and [`LICENSES.md`](LICENSES.md))
+- **License:** GPLv3 (see [`LICENSE`](LICENSE) and [`LICENSES.md`](LICENSES.md))
 - **Repository:** <https://github.com/appsbeheerder/flipper-apps>
 
 ---
@@ -237,8 +237,8 @@ Türkçe.
 
 ## Credits & license
 
-Solar Calculator is released under the **MIT License**. It ports and bundles a
-few MIT-licensed libraries; see [`LICENSES.md`](LICENSES.md) and
+Solar Calculator is released under the **GNU GPL version 3**. It ports and bundles a
+few MIT-licensed libraries, which keep their own license; see [`LICENSES.md`](LICENSES.md) and
 [`NOTICE`](NOTICE) for the full attribution:
 
 - Solar-position math from [jpb10/SolarCalculator](https://github.com/jpb10/SolarCalculator).
